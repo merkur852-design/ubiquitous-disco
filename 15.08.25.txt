@@ -1,0 +1,10 @@
+public class MerhabaDunya : MonoBehaviour
+{
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0)) // Sol tık algılanır
+        {
+            Debug.Log("Merhaba Dünya!");
+        }
+    }
+}
